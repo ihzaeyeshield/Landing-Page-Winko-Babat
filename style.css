@@ -1,0 +1,419 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+
+}
+
+header{
+  background-color: ;
+  z-index: 2;
+  max-width: 100%;
+}
+
+.menu1{
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto ;
+  background-color: red;
+}
+.menubar{
+  position: fixed;
+  background-color: ;
+  z-index: 9;
+}
+
+.sidebar img{
+  transform: translateY(100px) translateX(-10px);
+}
+
+
+.kotak{
+  position: fixed;
+  background-color: ;
+  z-index: 9;
+  transform: translateX(-175px);
+  display: flex;
+  flex-direction: column;
+}
+.kotakk{
+  color:red;
+  font-style: italic;
+}
+
+.kotak img{
+  transform: translateX(50%);
+}
+.kotak1 img, .kotak2 img,.kotak3 img,.kotak4 img{
+  max-width: 100%;
+  height: auto;
+}
+.kotak0{
+  top: 50%;
+  left: 50%;
+}
+.kotak1,.kotak2,.kotak3,.kotak4,.kotakk{
+  background-color: #C4C4C4;
+}
+.kotak0{
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+.kotak2{
+  padding-left: 10%;
+}
+.kotak4{
+  padding-left: 10%;
+}
+
+.menu p{
+  font-family: Just Me Again Down Here;
+  font-size: 50px;
+  color: #E8C07C;
+  transform: translateY(-20px);
+}
+
+@font-face{
+  font-family: 'Just Me Again Down Here';
+  src:url(assets/font/just-me-again-down-here.regular.ttf);
+}
+
+.menu{
+  flex-grow: 1;
+  color: white;
+  font-size: 24px;
+  font-family: roboto;
+  background-color: ;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 1%;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover{
+  transition: 0.3s;
+  background-color: #C4C4C4;
+}
+li{
+  list-style: none;
+}
+.bg img{
+  max-width: 100%;
+  margin-top: -20%;
+  position: relative;
+
+
+}
+.content{
+
+  flex-direction: column;
+  max-width: 75%; 
+  margin: 0 auto;
+  margin-top: -32%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.content1{
+  flex-grow: 1;
+  background-color: ;
+  text-align: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 700px) {
+  h1.best {
+    font-size: 50px;
+  }
+  h2.judul{
+    font-size: 50px;
+  }
+  p.keterangan{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1.best {
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  h2.judul{
+    font-size: 14px;
+    margin-top: -60px;
+  }
+  p.keterangan{
+    font-size: 12px;
+    margin-top: -20px;
+  }
+  .button{
+    width: 10%;
+    font-size: 10px;
+  }
+  section.content3{
+    flex-direction: column;
+  }
+  .kotak1 img, .kotak2 img,.kotak3 img,.kotak4 img{
+  
+  }
+  aside.menubar{
+    width: 30px;
+    height: auto;
+  }
+  pre.kotakk{
+    font-size: 8px;
+  }
+  .menu{
+    font-size: 12px;
+  }
+  .menu p{
+    font-size: 12px;
+    transform: translateY(0px);
+  }
+  figure.gambaraboutus{
+    margin-left: -2%;
+  }
+  .sidebar img{
+  width: 120%;
+  height: auto;
+  }
+  .kotak img{
+    width: 50%;
+    height: auto
+  }
+
+}
+
+
+
+.judul, .best, .keterangan, .button  {
+  flex-grow: 1;
+  background-color: ;
+  margin-top: 20px;
+  color: white;
+}
+@font-face{
+  font-family: 'Italianno';
+  src:url(assets/font/Italianno-Regular-OTF.otf);
+}
+.judul{
+  font-family: Italianno;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 62px;
+
+  color: #FFFFFF;
+}
+@font-face{
+  font-family: 'Jacques Francois Shadow';
+  src:url(assets/font/JacquesFrancoisShadow-Regular.ttf);
+}
+
+.best{
+font-family: Jacques Francois Shadow;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 66px;
+
+}
+@font-face{
+  font-family: 'Humanst521 Lt BT';
+  src:url(assets/font/Humanst521 Lt BT Light Italic.ttf);
+}
+.keterangan{
+font-family: Humanst521 Lt BT;
+font-style: italic;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+}
+.button {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: 2px solid #FFFFFF; 
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.button:hover{
+  background-color: #FFFFFF;
+  color: black;
+  transform: scale(1.2);
+  transition: .3s;
+}
+.button p{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.content2{
+  max-width: 100%;
+  background-color: #080D0E;
+  display: flex;
+  flex-direction: column;
+  margin-top: -3%;
+}
+
+.aboutus{
+  width: 70%;
+  background-color: ;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7%;
+  flex-direction: column;
+}
+
+.one, .two{
+font-family: Italianno;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.aboutuss, .inggridientt{
+font-family: Istok Web;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 58px;
+letter-spacing: 0.24em;
+
+color: rgba(232, 192, 124, 0.87);
+}
+.keterangan1{
+font-family: Humanst521 Lt BT;
+font-style: italic;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.gambaraboutus{
+  display: flex;
+  flex-direction: row;
+  background-color:  ;
+  border-radius: 20px;
+  max-width: 100%;
+  margin-left: 10%;
+
+}
+
+.gmabaraboutus1 {
+  margin-left: 5%;  
+  border-radius: 20px;
+  background-color: ;
+  margin-bottom: 10%;
+}
+.gmabaraboutus1 img{
+  width: 100%;
+  height: auto;
+}
+.gambaraboutus img:hover{
+  transform: scale(1.1);
+  transition: 0.3;
+}
+
+.content3{
+  display: flex;
+  flex-direction: row;
+  background-color: #080D0E;
+}
+
+.gambaringgridient{
+  background-color:    ;
+  margin: 0 auto;
+  margin-top: 8%;
+  margin-bottom: 10%;
+
+}
+.gambaringgridient img{
+  width: 100%;
+  height: auto;
+
+}
+.gambaringgridient img:hover{
+  transform: rotate(360deg) ;
+  transition: 2s;
+}
+.konteninggridient{
+  display: flex;
+  margin: 0 auto;
+  background-color:   ;
+  flex-direction: column;
+  text-align: ;
+  margin-top: 15%;
+}
+.two{
+  text-align:   center;
+}
+.dig1, .dig2{
+  display: flex;
+  flex-direction: row;
+  color:  white;
+}
+.dig1:hover, .dig2:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+.bar11, .bar22{
+  padding-top: 5%;
+}
+.dig1{
+  margin-top: 15%;
+}
+
+.bar1, .bar2,.bar11, .bar22, .bar12, .bar21{
+  flex-grow: 1;
+  font-family: Humanst521 Lt BT;
+  font-style: italic; 
+
+}
+.bar1, .bar2, .bar12, .bar21{
+  padding-bottom: 10%;
+}
+
+.bar12{
+  background-color: #F2B360;  
+}
+.bar21{
+  background-color: #F13C59; 
+}
+.bar1{
+  background-color: #633EBB;
+}
+.bar2{
+  background-color: #BC6CCA;
+}
+
+footer{
+  background-color: #0D2125;
+  height: 60px;
+  box-shadow: 2 black;
+}
+.footer1{
+  max-width: 75%;
+  margin: 0 auto; 
+  padding-top: 20px;
+}
+.footer2{
+  color: white;
+}
+
+aaside.diri{
+  float: right;
+  background-color: red;
+  font-style: italic;
+}
